@@ -39,8 +39,8 @@ function startQuiz(questions) {
 function displayQuestion(questionsObj) {
     questionsContainer.textContent=questionsObj.question
     optionsContainer.innerHTML=""; // reset
-    questionsObj.options.forEach((option,index)=> { // index არის ჩაშენებული, რომელიც რომელიც იწყება 
-//                                                  // რომელიც იწყება 0 დან და ყოველ იტერაციაზე 1-ით იზრდება      
+    questionsObj.options.forEach((option,index)=> { // index is in built,which is 0 by default 
+//                                                  // and increments by 1 on each iteration 
         const radionBtn=document.createElement('input')
         radionBtn.type='radio';
         radionBtn.name='option';
