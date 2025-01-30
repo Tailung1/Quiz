@@ -1,0 +1,18 @@
+[
+        
+          {
+            "question": "What is the capital of France?",
+            "options": ["Paris", "Berlin", "Madrid", "Rome"],
+            "answer": "Paris"
+          },
+          {
+            "question": "Which city is known as the 'Big Apple'?",
+            "options": ["Los Angeles", "New York", "Chicago", "San Francisco"],
+            "answer": "New York"
+          },
+          {
+            "question": "What is the most populous city in Japan?",
+            "options": ["Osaka", "Tokyo", "Kyoto", "Nagoya"],
+            "answer": "Tokyo"
+          }   
+]
