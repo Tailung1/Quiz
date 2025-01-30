@@ -62,4 +62,5 @@ function endQuiz() {
     optionsContainer.textContent="";
     submitBtn.style.display='none'
     scoreElement.innerHTML=`Total Score: ${score}`
+    scoreElement.style.cssText="color:violet;font-size:30px"
 }
