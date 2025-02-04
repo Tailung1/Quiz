@@ -3,7 +3,6 @@ const optionsContainer=document.querySelector('#options-container')
 const submitBtn=document.querySelector('#submit')
 const scoreElement=document.querySelector('#score')
 
-
 let currentQuestionsIndex=0
 let score=0;
 
