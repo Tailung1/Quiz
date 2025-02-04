@@ -52,7 +52,6 @@ function displayQuestion(questionsObj) {
 
         optionsContainer.appendChild(radionBtn)
         optionsContainer.appendChild(label)
-
     })
 }
 
